@@ -1,0 +1,79 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Euclid Circular A", "Poppins";
+  background: #2a282d;
+  color: #222;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 20px;
+  width: 100%;
+  height: 72px;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+}
+
+nav a {
+  color: inherit;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+nav span {
+  margin-right: 10px;
+}
+
+nav a.active {
+  color: #8f44fd;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 15%;
+  text-align: center;
+}
+
+section:nth-child(2) {
+  background: #ffffff;
+}
+
+section:nth-child(3) {
+  background: #fbf8ff;
+}
+
+section:nth-child(4) {
+  background: #2a282d;
+}
+
+p {
+  color: #565656;
+  line-height: 1.8;
+}
+
+section:nth-child(4) h2 {
+  color: rgb(255 255 255 / 96%);
+}
+
+section:nth-child(4) p {
+  color: rgb(255 255 255 / 70%);
+}
